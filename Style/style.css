@@ -1,0 +1,44 @@
+.logo {
+    position: fixed; /* Sticks it to the viewport */
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+.logo img {
+    height: auto;
+    max-width: 120px; /* You can adjust this size */
+  }
+  
+.cart-logo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensures it stays on top */
+  }
+  
+.cart-logo img {
+    cursor: pointer; /* Makes it clickable */
+  }
+.nav-link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;           /* Arrange items in a row */
+    justify-content: center; /* Center the items horizontally */
+    gap: 30px;               /* Space between links */
+  }
+/* Navigation bar container */
+.main-nav {
+    background-color: lightgreen;
+    padding: 15px 0;
+  }
+  /* Link styles */
+.nav-link a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+
+  
