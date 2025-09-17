@@ -72,44 +72,26 @@ body{
     transform: scale(1.1);
     opacity: 2.0;
   }
-
-  /* ABout us */
-  .Aboutus {
+  /* Contactus */
+  .contactus{
     background-color: lightgreen;
-    border-radius: 20px;
     align-items: center;
+    margin-top: 5%;
   }
-  .header-1{
-    text-align: left;
-    font-weight: bold;
-  }
-  .text-1{
-    font-weight: 700;
-    text-align: center;
-    font-size: 100%;
-  }
-  .header-2 {
-    text-align: left;
-    font-weight: bold; 
-  }
-  .text-2 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 100%;
-  }
-  .header-3{
+  
+  .headers{
     text-align: left;
     font-weight: bold;
     
   }
-  .text-3 {
-    text-align: center;
+  .texts {
     font-weight: 700;
+    text-align: center;
     font-size: 100%;
-  }
-  /* Footer */
+}
+/* Footer */
 
-  .site-footer {
+.site-footer {
     background-color: #000000;
     color: #fff;
     padding: 20px 0;
