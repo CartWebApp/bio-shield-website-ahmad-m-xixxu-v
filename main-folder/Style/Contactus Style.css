@@ -3,13 +3,8 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-  }
-  
-  .main-nav {
     background-color: lightgreen;
-    
   }
-  
   .nav-container {
     height: 80px;
     background-color: lightgreen;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--style.css -->
 <link rel="stylesheet" href="Style\index style.css">
+<link rel="stylesheet" href="Style\ProductsPage.css">
 <!--LInk--Cart.js--Page-->
 <script src="JAva script\script.js"></script>
 <!--LInk--searchbar.js--Page-->
@@ -15,15 +16,14 @@
 </head>
 
 <body>
-<!--Nav Bar-->   
+ <!--Nav Bar-->   
   <nav class="main-nav">
-    <div class="nav-container">
+    <section class="nav-container">
         <a href="Index.html" class="logo">
           <img src="images\Better-Shield.png" alt="Logo" width="120" height="auto">
         </a>
       <ul class="nav-link">
          <li><a href="Index.html">Home</a></li>
-         <li><a href="Products.html">Products</a></li>
          <li><a href="About Us.html">About</a></li>
          <li><a href="Contact.html">Contact</a></li>
          <button class="btn cartbtn"><img src="images\cart image.png" alt="Cart" width="40" height="40"></button>
@@ -31,5 +31,86 @@
          <button class="btn signinbtn">sign in</button>
         </a>
       </ul>
-    </div>
+    </section>
   </nav>
+  <!--Products page--> 
+  <header class="products-header">
+    <h1>Bio-Shield Products</h1>
+  </header>
+
+<main>
+  <section aria-label="Product Details">
+    <section class="product-list-1">
+     <article class="product-1">
+      <figure>
+        <a href="Products-html-pages/Bug-spray-product.html">
+          <img src="images/output (1).jpg" alt="Bug Spray">
+        </a>
+        <figcaption class="Product-reader">Bug Spray</figcaption>
+      </figure>
+      <section class="productinfo-1">
+        <h2>Bug Spray</h2>
+        <p>$7.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </section>
+     </article>
+
+     <article class="product-1">
+      <figure>
+        <a href="Products-html-pages/Bug-repellent-product.html">
+          <img src="images/output (2).jpg" alt="Bug Repellent">
+        </a>
+        <figcaption class="Product-reader">Bug Repellent</figcaption>
+      </figure>
+      <section class="productinfo-1">
+        <h2>Bug Repellent</h2>
+        <p>$9.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </section>
+     </article>
+
+     <article class="product-1">
+      <figure>
+        <a href="Products-html-pages/Fly-traps-product.html">
+          <img src="images/output (3).jpg" alt="Fly Traps">
+        </a>
+        <figcaption class="Product-reader">Fly Traps</figcaption>
+      </figure>
+      <section class="productinfo-1">
+        <h2>Fly Traps</h2>
+        <p>$5.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </section>
+     </article>
+
+     <article class="product-1">
+      <figure>
+        <a href="Products-html-pages/Sticky-tape-product.html">
+          <img src="images/output (4).jpg" alt="Sticky Tape">
+        </a>
+        <figcaption class="Product-reader">Sticky Tape</figcaption>
+      </figure>
+      <section class="productinfo-1">
+        <h2>Sticky Tape</h2>
+        <p>$5.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </section>
+     </article>
+    </section>
+  </section>
+<!--Footers-->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Bio Shield's Website. All rights not reserved.</p>
+      <ul class="footer-links">
+        <li><a href="About US.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Products.html">Bio sheilf's products</a></li>
+      </ul>
+    </div>
+  </footer>
+</Main>
+
+
+</body>
+</html>
