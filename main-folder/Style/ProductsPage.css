@@ -42,7 +42,17 @@ body {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 20px;
+  }
+  .product-1 img:hover {
+    transform: scale(1.1);
+    opacity: 2.0;
+  }
+  .Product-reader{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
   }
   
   /* Product title and price */
