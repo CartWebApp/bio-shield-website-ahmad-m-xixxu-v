@@ -1,0 +1,310 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-nav {
+  background-color: lightgreen; 
+}
+
+.nav-container {
+  height: 80px;
+  background-color: lightgreen;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px 0 100px;
+  max-width: 1300px;
+  margin: auto;
+}  
+.nav-link {
+  width: 50%;
+  }
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 50px;
+  transition: .3s;
+}
+.nav-link a:hover {
+  background-color: lightgreen;
+  color: #fff;
+}
+.signinbtn{
+  border-radius: 50px;
+  height: 52px;
+  border: none;
+  font-weight:600;
+  font-size: medium;
+  padding: 0 20px;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.signinbtn:hover{
+  background-color: lightgreen;
+  color: black;
+}
+.cartbtn{
+  background-color: lightgreen;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.cartbtn img{
+transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.cartbtn:hover img {
+  transform: scale(1.1);
+  opacity: 2.0;
+}
+/* END NAV Bar */
+
+/* Left side*/
+/* About us */
+.Aboutuscontainer{
+  background-color: lightgreen;
+  border-radius: 0 0 100px 100px;
+}
+.Aboutus{
+  display: flex;
+  color: black;
+  padding: 100px 0;
+  max-width: 1300px;
+  margin: auto;
+}
+.Aboutus .slogan{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+.Aboutus .Weclome{
+  font-size: x-large;
+  height: 10px;
+}
+.Aboutus .description{
+  color: black;
+  font-weight: 500;
+}
+.Aboutus .aboutusbtn{
+  color: black;
+  border: none;
+  background-color: lightgreen;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: medium;
+  transition: .3s;
+}
+.Aboutus .aboutusbtn:hover{
+  color: white;
+  cursor: pointer;
+}
+/* searchbar*/
+.searchBar{
+  position: relative;
+  margin-top: 50px;
+}
+.searchBar input{
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  width: 40%;
+  height: 50px;
+  font-size: large;
+  padding-left: 20px;
+}
+.searchBar input::placeholder{
+  font-size: medium;
+}
+.searchBar .searchBtn{
+  position: absolute;
+  left: 250px;
+  border-radius: 50px;
+  height: 52px;
+  border: none;
+  font-weight:700;
+  font-size: medium;
+  padding: 0 20px;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.searchBar .searchBtn:hover{
+  background-color: white;
+  color: black;
+}
+.leftSide{
+  padding-top: 30px;
+  flex: 8;
+}
+.dropdown-List{
+  position: absolute;
+  display: none;
+  top: 120%;
+  width: 45%;
+  font-weight:700;
+  font-size: medium;
+  overflow-y: auto;
+  border-top: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+}
+.dropdown-List li{
+  padding: 8px;
+  cursor: pointer;
+}
+.dropdown-List li:hover{
+  border-radius: 50px;
+  background-color: darkblue;
+  color: #fff;
+}
+/* Right side */
+.imagerightside{
+  flex: 4;
+}
+.imagerightside img {
+  width: 100%;
+  border-radius: 20px;
+}
+/* Products section */
+
+/* ImportantProducts*/
+.Productscontainer{
+  padding: 50px;
+
+}
+.Productsheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.Productsheader h1{
+  margin-top: 0;
+  color: black;
+}
+.Productscontainer span{
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+}
+.ProductsBtn{
+  border-radius: 50px;
+  height: 52px;
+  border: none;
+  font-weight:600;
+  font-size: medium;
+  padding: 0 20px;
+  background-color: darkblue;
+  color: #fff;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.ProductsBtn:hover{
+  background-color: white;
+  color: black;
+}
+.PDinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-top: 30px;
+}
+.PDinfo .Products{
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.PDinfo .Products .ProductInfo{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  padding-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+.PDinfo .ProductInfo .ProductName{
+  padding: 0 20px;
+}
+.PDinfo .ProductInfo h3{
+  text-align: center; 
+  font-size: 20px;
+  margin: 8px 0;
+  margin-right: 30px;
+  color: rgb(0, 0, 0);
+}
+.PDinfo .Products img{
+  border-radius: 20px;
+}
+.PDinfo .ProductInfo .Productsimg{
+  margin-right: 20px;
+}
+.PDinfo .ProductInfo .Productsimg:hover{
+  transform: scale(1.3s);
+}
+/* footer*/
+
+.site-footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 50px;
+  border-radius: 100px 100px 0 0; 
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
