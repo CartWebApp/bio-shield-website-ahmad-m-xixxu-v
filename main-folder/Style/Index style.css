@@ -6,7 +6,7 @@ body{
 }
 
 .main-nav {
-  background-color: lightgreen;
+  background-color: lightgreen; 
 }
 
 .nav-container {
@@ -187,6 +187,7 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 /* ImportantProducts*/
 .Productscontainer{
   padding: 50px;
+
 }
 .Productsheader{
   display: flex;
@@ -229,6 +230,16 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .PDinfo .Products{
   position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .PDinfo .Products .ProductInfo{
   position: absolute;
@@ -242,8 +253,12 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 .PDinfo .ProductInfo .ProductName{
   padding: 0 20px;
 }
-.PDinfo .ProductName h3{
-  margin-top: 0;
+.PDinfo .ProductInfo h3{
+  text-align: center; 
+  font-size: 20px;
+  margin: 8px 0;
+  margin-right: 30px;
+  color: rgb(0, 0, 0);
 }
 .PDinfo .Products img{
   border-radius: 20px;
@@ -263,6 +278,12 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   text-align: center;
   position: relative;
   top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 50px;
+  border-radius: 100px 100px 0 0; 
 }
 
 .footer-content {
