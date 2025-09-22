@@ -206,8 +206,6 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   border-radius: 30px;
   margin-top: 50px;
   margin-bottom: 10px;
-  gap: 25px; 
-
 }
 .Productsheader{
   display: flex;
@@ -271,13 +269,12 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 250px;
   margin-top: 30px;
 }
 .PDinfo .Products{
   position: relative;
   height: 325px;
-  margin: 0 auto;
+  margin:  20px;
   border-radius: 8px;
   padding: 16px;
   text-align: center;
