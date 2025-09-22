@@ -1,89 +1,45 @@
 body{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+  }
+  .main-nav {
     background-color: lightgreen;
-  }
-  .nav-container {
-    height: 80px;
-    background-color: lightgreen;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px 0 100px;
-    max-width: 1300px;
-    margin: auto;
-  }  
-  .nav-link {
-    width: 50%;
-    }
-  
-  .nav-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .nav-link a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 15px;
-    border-radius: 50px;
-    transition: .3s;
-  }
-  .nav-link a:hover {
-    background-color: lightgreen;
-    color: #fff;
-  }
-  .signinbtn{
-    border-radius: 50px;
-    height: 52px;
-    border: none;
-    font-weight:600;
-    font-size: medium;
-    padding: 0 20px;
-    background-color: darkblue;
-    color: #fff;
-    text-transform: uppercase;
-    transition: .3s;
-  }
-  .signinbtn:hover{
-    background-color: lightgreen;
-    color: black;
-  }
-  .cartbtn{
-    background-color: lightgreen;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-  }
-  .cartbtn img{
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  }
-  .cartbtn:hover img {
-    transform: scale(1.1);
-    opacity: 2.0;
+    border-radius: 0 0 100px 100px;
+    padding: 25px;
   }
   /* Contactus */
   .contactus{
-    background-color: lightgreen;
-    align-items: center;
-    margin-top: 5%;
+  color: black;
+  padding: 100px 0;
+  background-color: white;
+  margin: auto;
+  max-width: 1825px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  gap: 25px;
   }
   
-  .headers{
-    text-align: left;
+  .headers-Contactus {
+    font-size: large;
     font-weight: bold;
     
   }
-  .texts {
+  .texts-Contactus {
     font-weight: 700;
     text-align: center;
     font-size: 100%;
-}
+  }
+  .social-media-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .social-media-links li {
+    margin: 5px 0;
+  }
 /* Footer */
 
 .site-footer {

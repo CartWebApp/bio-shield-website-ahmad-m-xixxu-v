@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="images/Better-Shield - Tab-icon.png">s
     <title>About Us Bio-shield</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--style.css -->
 <link rel="stylesheet" href="Style/Aboutus style.css">
-<!--LInk--Cart.js--Page-->
-<script src="JAva script\script.js"></script>
+<link rel="stylesheet" href="Style/Index style.css">
 <!--Font-->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -23,17 +23,25 @@
          <li><a href="Index.html">Home</a></li>
          <li><a href="Products.html">Products</a></li>
          <li><a href="Contact.html">Contact</a></li>
-         <button class="btn cartbtn"><img src="images\cart image.png" alt="Cart" width="40" height="40"></button>
+          <li>
+              <a href="Cart.html">
+                <button class="btn cartbtn">
+                <img src="Images/cart image.png" alt="Cart" width="40" height="40">
+                </button>
+                <span id="cart-count" class="cart-count">0</span>
+            </a>
+            </li>
         <a href="sign in.html">
          <button class="btn signinbtn">sign in</button>
         </a>
       </ul>
     </section>
+  </main>
 
 <!--About Us-->
-    <section class="Aboutus">
+    <section class="Aboutus-1">
       <p class="header-1">
-        <h1>Who we are</h1>
+        <h2>Who we are?</h2>
       </p>
       <article class="text-1">
         <p>Our 2 founders Created Bio-shield as a school project for Their web devolpmenmt class of 2026.</p><p class="description">
@@ -48,7 +56,7 @@
         <p>We at Bio-shield have been working hard to devople and create this website to support users like you while also developing a way to make our website moble friendly.</p>
     </article>
         <p class="header-3">
-          <h2>what we have to offer</h2>
+          <h2>what we have to offer?</h2>
         </p>
         <article class="text-3">
         <p>
@@ -67,16 +75,19 @@
 
 <!--Footer-->
     <footer class="site-footer">
-      <div class="footer-content">
+      <section class="footer-content">
         <p>&copy; 2025 Bio Shield's Website. All rights not reserved.</p>
         <ul class="footer-links">
           <li><a href="About US.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="Products.html">Bio sheilf's products</a></li>
+          <li><a href="Products.html">Bio Shield's products</a></li>
         </ul>
-      </div>
+      </section>
     </footer>
-  </main>
 
+    <SCRIPT src="Java script/cart.js"></SCRIPT>
+    <script src="Java script/atc-1.js"></script>
+    <script src="Java script/atc-2.js"></script>
+    <script src="Java script/atc-3.js"></script>
 </body>
 </html>

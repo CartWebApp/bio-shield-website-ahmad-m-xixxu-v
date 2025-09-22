@@ -71,6 +71,16 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   transform: scale(1.1);
   opacity: 2.0;
 }
+.cart-count{
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+}
 /* END NAV Bar */
 
 /* Left side*/
@@ -181,29 +191,64 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 .imagerightside img {
   width: 100%;
   border-radius: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 /* Products section */
 
 /* ImportantProducts*/
 .Productscontainer{
-  padding: 50px;
+  color: black;
+  padding: 100px 0;
+  background-color: white;
+  margin: auto;
+  max-width: 1825px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  gap: 25px; 
 
 }
 .Productsheader{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  align-items: center;
   padding-bottom: 40px;
+  align-items: center;
 }
 .Productsheader h1{
   margin-top: 0;
+  margin-left: 25px;
   color: black;
+  text-align: center;
 }
-.Productscontainer span{
+.Productsheader{
   text-transform: uppercase;
   color: black;
   font-weight: 600;
+}
+.add-to-cart{
+ background-color: darkblue;
+ color:white;
+ border: none;
+ padding: 10px 16px;
+ font-size: 16px;
+ border-radius: 20px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ font-weight: bold;
+ margin-top: 10px;
+ text-align: center;
+ justify-content: center;
+ margin-right: 30px;
+
+}
+.add-to-cart:hover{
+  background-color: white;
+  color: black;
+}
+.quantity {
+  margin-left: 10px;
+  text-align: center;
 }
 .ProductsBtn{
   border-radius: 50px;
@@ -216,6 +261,7 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   color: #fff;
   text-transform: uppercase;
   transition: .3s;
+  margin-right: 25px;
 }
 .ProductsBtn:hover{
   background-color: white;
@@ -230,7 +276,7 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .PDinfo .Products{
   position: relative;
-  max-width: 300px;
+  height: 325px;
   margin: 0 auto;
   border-radius: 8px;
   padding: 16px;
@@ -239,7 +285,7 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   flex-direction: column;
   align-items: center;
   background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.1);
 }
 .PDinfo .Products .ProductInfo{
   position: absolute;
@@ -249,6 +295,24 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   justify-content: space-between;
   align-items: center;
   color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+.PDinfo .ProductInfo .btn{
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .3s;
+  margin-top: 5px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+.PDinfo .ProductInfo .btn:hover{
+  background-color: white;
+  color: black;
 }
 .PDinfo .ProductInfo .ProductName{
   padding: 0 20px;
@@ -257,17 +321,17 @@ transition: transform 0.3s ease, opacity 0.3s ease;
   text-align: center; 
   font-size: 20px;
   margin: 8px 0;
+  margin-top: 5px;
   margin-right: 30px;
   color: rgb(0, 0, 0);
 }
 .PDinfo .Products img{
   border-radius: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
-.PDinfo .ProductInfo .Productsimg{
-  margin-right: 20px;
-}
-.PDinfo .ProductInfo .Productsimg:hover{
-  transform: scale(1.3s);
+.PDinfo .Products img:hover{
+  transform: scale(1.1);
+  opacity: 2.0;
 }
 /* footer*/
 

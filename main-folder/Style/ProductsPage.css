@@ -32,9 +32,9 @@ body {
   }
   /* Products header */
   .products-header{
+    margin-top: 30px;
     text-align: center;
     font-size: large;
-
   }
   /* Product image */
   .product-1 img {
@@ -48,13 +48,6 @@ body {
     transform: scale(1.1);
     opacity: 2.0;
   }
-  .Product-reader{
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: black;
-  }
-  
   /* Product title and price */
   .product-1 h2 {
     font-size: 20px;
@@ -85,6 +78,7 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-weight: bold;
+    margin-top: 20px;
   }
   
   .add-to-cart:hover {
