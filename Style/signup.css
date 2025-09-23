@@ -112,7 +112,8 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  transform: scale(1.1);
+  opacity: 2.0;
 }
 
 #message {
