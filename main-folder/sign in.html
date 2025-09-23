@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="images/Better-Shield - Tab-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="Style/signup.css" />
+  <link rel="stylesheet" href="Style/Index style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="main-nav">
+    <nav class="nav-container">
+      <a href="Index.html" class="logo">
+        <img src="images/Better-Shield.png" alt="Logo" width="120">
+      </a>
+      <ul class="nav-link">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="About Us.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li>
+          <a href="Cart.html" class="cart-link">
+            <button class="btn cartbtn" aria-label="View Cart">
+              <img src="Images/cart image.png" alt="Cart" width="40" height="40">
+            </button>
+            <span id="cart-count" class="cart-count">0</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Authentication Forms -->
+  <main class="auth-container">
+    <section class="form-section" aria-labelledby="signup-title">
+      <h2 id="signup-title">Sign Up</h2>
+      <form id="signupForm">
+        <input type="text" id="signupUsername" placeholder="Username" required />
+        <input type="password" id="signupPassword" placeholder="Password" required />
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+
+    <section class="form-section" aria-labelledby="login-title">
+      <h2 id="login-title">Login</h2>
+      <form id="loginForm">
+        <input type="text" id="loginUsername" placeholder="Username" required />
+        <input type="password" id="loginPassword" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section aria-live="polite" id="message"></section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <section class="footer-content">
+      <p>&copy; 2025 Bio Shield's Website. All rights not reserved.</p>
+      <nav>
+        <ul class="footer-links">
+          <li><a href="About US.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Products.html">Bio Shield's products</a></li>
+        </ul>
+      </nav>
+    </section>
+  </footer>
+
+  <script src="Java script/Signup.js"></script> 
+</body>
+</html>
